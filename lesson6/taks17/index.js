@@ -1,8 +1,8 @@
-const uniqueCount = (arr) => {
+const uniqueCount = arr => {
   if (!Array.isArray(arr)) {
     return null;
   }
-  let nArr = [...new Set(arr)];
+  const nArr = [...new Set(arr)];
 
   return nArr.length;
 };
