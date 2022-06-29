@@ -1,6 +1,5 @@
 const withdraw = (clients, balances, client, amount) => {
   const currentClient = clients.indexOf(client);
-  console.log(currentClient);
   return balances[currentClient] > amount ? (balances[currentClient] -= amount) : -1;
 };
 
