@@ -17,21 +17,17 @@ function addPropertyV1(userData, userId) {
 
 // put your code here
 function addPropertyV2(userData, userId) {
-  const obj = {};
-  obj.id = userId;
-  return Object.assign(userData, obj);
+  return Object.assign(userData, { id: userId });
 }
 // put your code here
 function addPropertyV3(userData, userId) {
-  const obj = {};
-  obj.id = userId;
-  return Object.assign({}, userData, obj);
+  return Object.assign({}, userData, { id: userId });
 }
 // put your code here
 function addPropertyV4(userData, userId) {
   const obj = {};
   obj.id = userId;
-  return { ...userData, ...obj };
+  return { ...userData, ...{ id: userId } };
 }
 // examples
 const user = {
