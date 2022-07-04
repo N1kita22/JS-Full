@@ -1,11 +1,11 @@
 const getRandomNumbers = (length, from, to) => {
   const arr = [];
+  if (to - from < 1) {
+    return null;
+  }
 
   for (let el = 0; el < length; el += 1) {
     arr.push(+(Math.random() * (Math.floor(to) - Math.ceil(from)) + Math.ceil(from)).toFixed());
-  }
-  if ((from || to) < 1) {
-    return null;
   }
   return arr;
 };
