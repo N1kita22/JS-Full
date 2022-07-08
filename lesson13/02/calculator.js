@@ -1,4 +1,4 @@
-export function getSquareArray(arr) {
+export function getSquaredArray(arr) {
   return arr.map(el => el ** 2);
 }
 
