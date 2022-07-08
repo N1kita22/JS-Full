@@ -7,3 +7,4 @@ node_modules
 >>>>>>> 115e082d521ea74a84c27a483c420ebb13dbf27b
 package.json
 babel.config.js
+.babelrc
