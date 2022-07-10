@@ -1,4 +1,3 @@
-//add() decrease() reset() getMemo()
 let defualtNum = 0;
 export function add(num) {
   defualtNum += num;
