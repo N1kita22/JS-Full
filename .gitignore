@@ -8,3 +8,4 @@ node_modules
 package.json
 babel.config.js
 .babelrc
+.vscode/settings.json
