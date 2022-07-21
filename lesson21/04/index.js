@@ -10,7 +10,7 @@ export const getPlans = () => {
   return document.querySelector('.plans').innerHTML;
 };
 
-export const getGoals = () => {
+export const getGoal = () => {
   return document.querySelector('.goal').outerHTML;
 };
 console.log(getTitle());
