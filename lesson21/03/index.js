@@ -1,12 +1,18 @@
 export const getItemsList = () => {
   const list = [...document.querySelectorAll('.technology')];
-  console.dir(list);
-  return list;
+  const textList = list.map(el => {
+    return el.textContent;
+  });
+  console.dir(textList);
+  return textList;
 };
 
 export const getItemsArray = () => {
-  console.dir(Array.from(document.querySelectorAll('.tool')));
-  return Array.from(document.querySelectorAll('.tool'));
+  const textList = Array.from(document.querySelectorAll('.tool')).map(el => {
+    return el.textContent;
+  });
+  console.dir(textList);
+  return textList;
 };
 
 getItemsList();
