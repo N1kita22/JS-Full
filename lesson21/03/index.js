@@ -14,6 +14,3 @@ export const getItemsArray = () => {
   console.dir(textList);
   return textList;
 };
-
-getItemsList();
-getItemsArray();
