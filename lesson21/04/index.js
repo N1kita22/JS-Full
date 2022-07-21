@@ -16,4 +16,4 @@ export const getGoal = () => {
 console.log(getTitle());
 console.dir(getDescription());
 console.log(getPlans());
-console.log(getGoals());
+console.log(getGoal());
